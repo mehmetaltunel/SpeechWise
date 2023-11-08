@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7603674B-E12B-4C5C-A152-B8768DC9DBC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{622E218D-8DFD-4AD5-9561-0B986200CEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechWise.BusinessLogic.Services", "BusinessLogic\SpeechWise.BusinessLogic.Services\SpeechWise.BusinessLogic.Services.csproj", "{B0DB3976-30ED-44E7-8699-0A24B4AD1D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechWise.BusinessLogic.Models", "BusinessLogic\SpeechWise.BusinessLogic.Models\SpeechWise.BusinessLogic.Models.csproj", "{F70CFE08-B087-4FFD-A503-3E0A28DA075E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechWise.BusinessLogic.Utilities", "BusinessLogic\SpeechWise.BusinessLogic.Utilities\SpeechWise.BusinessLogic.Utilities.csproj", "{113293CF-CDFF-49F4-8A72-9BE824FEDD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechWise.Presentation.Api", "Presentation\SpeechWise.Presentation.Api\SpeechWise.Presentation.Api.csproj", "{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DB3976-30ED-44E7-8699-0A24B4AD1D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DB3976-30ED-44E7-8699-0A24B4AD1D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DB3976-30ED-44E7-8699-0A24B4AD1D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DB3976-30ED-44E7-8699-0A24B4AD1D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70CFE08-B087-4FFD-A503-3E0A28DA075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70CFE08-B087-4FFD-A503-3E0A28DA075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70CFE08-B087-4FFD-A503-3E0A28DA075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70CFE08-B087-4FFD-A503-3E0A28DA075E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113293CF-CDFF-49F4-8A72-9BE824FEDD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113293CF-CDFF-49F4-8A72-9BE824FEDD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113293CF-CDFF-49F4-8A72-9BE824FEDD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113293CF-CDFF-49F4-8A72-9BE824FEDD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0DB3976-30ED-44E7-8699-0A24B4AD1D25} = {622E218D-8DFD-4AD5-9561-0B986200CEB6}
+		{F70CFE08-B087-4FFD-A503-3E0A28DA075E} = {622E218D-8DFD-4AD5-9561-0B986200CEB6}
+		{113293CF-CDFF-49F4-8A72-9BE824FEDD17} = {622E218D-8DFD-4AD5-9561-0B986200CEB6}
+		{32E62FA4-370A-4AD3-B276-3A2C1AD1A80A} = {7603674B-E12B-4C5C-A152-B8768DC9DBC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {430095A1-9FFC-42F4-9157-FB2E5E3A20BC}
+	EndGlobalSection
+EndGlobal
